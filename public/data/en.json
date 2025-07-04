@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Beauty & Aesthetics Clinic | Professional Beauty Treatments",
+    "description": "Professional beauty and aesthetics clinic offering advanced treatments for skin care, anti-aging, and body contouring."
+  },
+  "header": {
+    "name": "Beauty",
+    "lastname": "& Aesthetics",
+    "tagline": "Transform your beauty with advanced aesthetic treatments",
+    "cta": "Book Consultation"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "treatments": "Treatments",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Professional Beauty & Aesthetics",
+    "subtitle": "Advanced treatments for natural beauty enhancement",
+    "description": "Experience the latest in aesthetic medicine with our team of certified professionals. We offer personalized treatments to enhance your natural beauty.",
+    "cta": "Schedule Your Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional beauty treatments",
+    "items": [
+      {
+        "title": "Facial Treatments",
+        "description": "Advanced facial treatments for skin rejuvenation and anti-aging",
+        "icon": "✨"
+      },
+      {
+        "title": "Body Contouring",
+        "description": "Non-invasive body sculpting and fat reduction treatments",
+        "icon": "💪"
+      },
+      {
+        "title": "Anti-Aging",
+        "description": "Cutting-edge anti-aging treatments and skin tightening",
+        "icon": "🌟"
+      },
+      {
+        "title": "Skin Care",
+        "description": "Professional skin care treatments and consultations",
+        "icon": "🧴"
+      }
+    ]
+  },
+  "treatments": {
+    "title": "Popular Treatments",
+    "subtitle": "Most requested procedures",
+    "items": [
+      {
+        "title": "Botox & Fillers",
+        "description": "Reduce fine lines and restore facial volume",
+        "price": "From $299"
+      },
+      {
+        "title": "Chemical Peels",
+        "description": "Improve skin texture and reduce imperfections",
+        "price": "From $199"
+      },
+      {
+        "title": "Laser Hair Removal",
+        "description": "Permanent hair reduction on all body areas",
+        "price": "From $149"
+      },
+      {
+        "title": "Microdermabrasion",
+        "description": "Deep exfoliation for radiant skin",
+        "price": "From $129"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Our Clinic",
+    "content": "Our clinic combines medical expertise with artistic vision to deliver exceptional aesthetic results. With over 10 years of experience, our certified professionals use the latest technology and techniques to ensure safe, effective treatments.",
+    "highlights": [
+      "Certified Medical Professionals",
+      "Latest Technology & Equipment",
+      "Personalized Treatment Plans",
+      "Safe & Effective Procedures"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Schedule your consultation",
+    "address": "123 Beauty Street, Downtown",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@beautyaesthetics.com",
+    "hours": "Mon-Fri: 9AM-7PM, Sat: 9AM-5PM",
+    "cta": "Book Appointment"
+  },
+  "footer": {
+    "copyright": "© 2024 Beauty & Aesthetics Clinic. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+} 

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Clínica de Beleza e Estética | Tratamentos Profissionais",
+    "description": "Clínica profissional de beleza e estética oferecendo tratamentos avançados para cuidados com a pele, antienvelhecimento e contorno corporal."
+  },
+  "header": {
+    "name": "Beleza",
+    "lastname": "& Estética",
+    "tagline": "Transforme sua beleza com tratamentos estéticos avançados",
+    "cta": "Agendar Consulta"
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "treatments": "Tratamentos",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Beleza e Estética Profissional",
+    "subtitle": "Tratamentos avançados para realçar a beleza natural",
+    "description": "Experimente o que há de mais moderno em medicina estética com nossa equipe de profissionais certificados. Oferecemos tratamentos personalizados para realçar sua beleza natural.",
+    "cta": "Agende Sua Consulta"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Tratamentos profissionais de beleza",
+    "items": [
+      {
+        "title": "Tratamentos Faciais",
+        "description": "Tratamentos faciais avançados para rejuvenescimento e antienvelhecimento",
+        "icon": "✨"
+      },
+      {
+        "title": "Contorno Corporal",
+        "description": "Tratamentos não invasivos de modelagem e redução de gordura",
+        "icon": "💪"
+      },
+      {
+        "title": "Antienvelhecimento",
+        "description": "Tratamentos de ponta para antienvelhecimento e firmamento da pele",
+        "icon": "🌟"
+      },
+      {
+        "title": "Cuidados com a Pele",
+        "description": "Tratamentos e consultas profissionais para cuidados com a pele",
+        "icon": "🧴"
+      }
+    ]
+  },
+  "treatments": {
+    "title": "Tratamentos Populares",
+    "subtitle": "Procedimentos mais solicitados",
+    "items": [
+      {
+        "title": "Botox & Preenchimentos",
+        "description": "Reduza linhas finas e restaure o volume facial",
+        "price": "A partir de R$ 1.500"
+      },
+      {
+        "title": "Peeling Químico",
+        "description": "Melhore a textura da pele e reduza imperfeições",
+        "price": "A partir de R$ 800"
+      },
+      {
+        "title": "Depilação a Laser",
+        "description": "Redução permanente de pelos em todas as áreas",
+        "price": "A partir de R$ 300"
+      },
+      {
+        "title": "Microdermoabrasão",
+        "description": "Esfoliação profunda para pele radiante",
+        "price": "A partir de R$ 250"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Nossa Clínica",
+    "content": "Nossa clínica combina expertise médica com visão artística para entregar resultados estéticos excepcionais. Com mais de 10 anos de experiência, nossos profissionais certificados usam a tecnologia e técnicas mais modernas para garantir tratamentos seguros e eficazes.",
+    "highlights": [
+      "Profissionais Médicos Certificados",
+      "Tecnologia e Equipamentos Modernos",
+      "Planos de Tratamento Personalizados",
+      "Procedimentos Seguros e Eficazes"
+    ]
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Agende sua consulta",
+    "address": "Rua da Beleza, 123, Centro",
+    "phone": "+55 (11) 99999-9999",
+    "email": "contato@belezaestetica.com.br",
+    "hours": "Seg-Sex: 9h-19h, Sáb: 9h-17h",
+    "cta": "Agendar Consulta"
+  },
+  "footer": {
+    "copyright": "© 2024 Clínica de Beleza e Estética. Todos os direitos reservados.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  }
+} 
