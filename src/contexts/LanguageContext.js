@@ -13,11 +13,13 @@ export const useLanguage = () => {
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('en');
   const [translations, setTranslations] = useState({});
+  const [loading, setLoading] = useState(true);
 
   // Load translations
   useEffect(() => {
     const loadTranslations = async () => {
       try {
+        setLoading(true);
         const [enResponse, ptResponse] = await Promise.all([
           fetch('/data/en.json'),
           fetch('/data/pt.json')
@@ -29,6 +31,8 @@ export const LanguageProvider = ({ children }) => {
         setTranslations({ en: enData, pt: ptData });
       } catch (error) {
         console.error('Error loading translations:', error);
+      } finally {
+        setLoading(false);
       }
     };
 
@@ -59,11 +63,15 @@ export const LanguageProvider = ({ children }) => {
 
   // Translation function
   const t = (key) => {
+    if (loading || !translations[language]) {
+      return key; // Return key if still loading or no translations
+    }
+    
     const keys = key.split('.');
     let value = translations[language];
     
     for (const k of keys) {
-      if (value && value[k]) {
+      if (value && value[k] !== undefined) {
         value = value[k];
       } else {
         return key; // Return key if translation not found
@@ -81,7 +89,8 @@ export const LanguageProvider = ({ children }) => {
   const value = {
     language,
     changeLanguage,
-    t
+    t,
+    loading
   };
 
   return (
